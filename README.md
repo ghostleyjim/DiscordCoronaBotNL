@@ -12,9 +12,11 @@ The user can also use following commands;
 
 To use the bot for yourself you need to create an account to get a secret key 
 store this in your .env file. Also since it now uses pastebin to paste values you need to create and 
-store your userkey in there 
+store your userkey in there.
 
-https://pypi.org/project/pbwrap/ library explanation on keycreation and pastebin in python use
+Create a log.txt file for logging the incomming municipality requests (with time and username)
+
+https://pypi.org/project/pbwrap/ library explanation on keycreation and pastebin for python use
 https://realpython.com/how-to-make-a-discord-bot-python/ has a nice description
 on how-to set discord up.
 
