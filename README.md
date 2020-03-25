@@ -1,9 +1,9 @@
 DiscordCoronaBotNL
 
 Discord bot created to scrape the RIVM (dutch healthcare institute) 
-once a day (to prevent flooding) and collect the number of confirmed cases per municipal.
+once a day (to prevent flooding) and collect the number of confirmed cases per municipality.
 
-When user in discord writes !corona <municipal(gemeente)> the bot will respond
+When user in discord writes !corona <municipality(gemeente)> the bot will respond
 with number of confirmed cases..
 
 The user can also use following commands;
