@@ -38,8 +38,7 @@ def RIVMdata(locatie):
     old_minutes = old_minutes.strip('\n')
     f.close()  # close the file again
 
-    update_datetime = old_day + ' ' + old_month + ' ' + old_hour + ':' + old_minutes + ' uur'  # update message
-    # string to chatroom
+
     try:
         ntp_client = ntplib.NTPClient()  # check timeserver
         response = ntp_client.request('pool.ntp.org')  # store variable from timeserver
@@ -92,6 +91,10 @@ def RIVMdata(locatie):
                 print(gemeentes, file=text_file)  # print all info to the text file
 
     while True:  # while loop to extract info from csv with !corona
+
+        update_datetime = old_day + ' ' + old_month + ' ' + old_hour + ':' + old_minutes + ' uur'  # update message
+        # string to chatroom
+
         with open(
                 'database.txt') as csv_file:  # database file open as csv same as above but now with case information as well
             csv_reader = (csv.reader(csv_file, delimiter=';'))  # split the info in rows and collumns

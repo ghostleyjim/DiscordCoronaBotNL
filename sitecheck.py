@@ -1,3 +1,4 @@
+#testfile to scrape the RIVM website all is copied to bot
 import requests
 from bs4 import BeautifulSoup
 import csv
