@@ -1,23 +1,34 @@
 # bot.py
-
+import ntplib  # time from ntp server
 import csv  # RIVM uses CSV
 import os  # for dotenv
+from dotenv import load_dotenv  # dotenv to store bot secret
+
 import time  # time control to only contact website once
 
 import discord  # discord library
-import ntplib  # time from ntp server
+
 import requests  # URL request
 from bs4 import BeautifulSoup  # scrape the website info
-from dotenv import load_dotenv  # dotenv to store bot secret
+from pbwrap import Pastebin
 
 PIC = ''  # person in control
 current_datetime = ''
 filedate = ''
 
 
+load_dotenv()  # load the secret from the .env file
+TOKEN = os.getenv('DISCORD_TOKEN')  # variable token stores the secret
+PASTEAPI = os.getenv('PASTEBIN_TOKEN')
+PASTEUSERKEY = os.getenv('PASTEBIN_USERKEY')
+client = discord.Client()  # variable to store client info
+
+pastebin = Pastebin(PASTEAPI)
+
 def RIVMdata(locatie):
     global filedate  # used for adding to .txt database
     global current_datetime
+
 
     plaats = []  # array for storing municipality info
 
@@ -76,19 +87,26 @@ def RIVMdata(locatie):
                 print(RIVM[1:], file=text_file,
                       end='')  # print the data in the txt !!end is important to prevent empty lines
 
-            with open('database.txt') as csv_file:  # open the file as a csv
-                csv_reader = (csv.reader(csv_file, delimiter=';'))  # split the info in rows and collumns
+        if locatie == 'database':
+            with open('database.txt', 'r') as database:
+                RIVM = database.read()
+                pasteurl = pastebin.create_paste(RIVM, api_paste_private=0, api_paste_name=None,
+                                                 api_paste_expire_date='10M',
+                                                 api_paste_format='text')  # print all info to the text file
+                return pasteurl
 
-                for row in csv_reader:  # for loop to only take out info needed
-                    gemeente = row[1]  # taking out all info with name of municipals
+        with open('database.txt', 'r') as csv_file:  # open the file as a csv
+            csv_reader = (csv.reader(csv_file, delimiter=';'))  # split the info in rows and collumns
+            plaats = []
+            for row in csv_reader:  # for loop to only take out info needed
+                gemeente = row[1]  # taking out all info with name of municipals
 
-                    plaats.append(gemeente)  # add them to the array plaats
+                plaats.append(gemeente)  # add them to the array plaats
 
-            with open('gemeentelijst.txt', 'w') as text_file:  # store all in txt file so users can request from bot
-                gemeentes = ''  # variable to create string
-                for i in range(len(plaats)):  # for loop to put all info in text file with newlines (easy reading)
-                    gemeentes = plaats[i] + '\n'  # adding the \n to all
-                print(gemeentes, file=text_file)  # print all info to the text file
+        if locatie == 'gemeentelijst':
+            gemeentelijst = '\n'.join(plaats)
+            pasteurl = pastebin.create_paste(gemeentelijst, api_paste_private=0, api_paste_name=None, api_paste_expire_date='10M', api_paste_format='text')  # print all info to the text file
+            return pasteurl
 
     while True:  # while loop to extract info from csv with !corona
 
@@ -124,11 +142,6 @@ def RIVMdata(locatie):
             return (bericht)  # return message to send function
 
 
-load_dotenv()  # load the secret from the .env file
-TOKEN = os.getenv('DISCORD_TOKEN')  # variable token stores the secret
-
-client = discord.Client()  # variable to store client info
-
 
 @client.event
 async def on_ready():  # if script connects to Discord
@@ -160,15 +173,12 @@ async def on_message(message):  # if I reveive a message
             await message.channel.send('Error commando is: !corona <gemeente>')  # send error message
 
     elif (message.content == '!gemeentes'):  # if command !gemeente is given
-        PIC = message.author  # store who asked for it
-        with open('gemeentelijst.txt', 'rb') as fp:  # open the file gemeentelijst.txt
-            await PIC.send(file=discord.File(fp,
-                                             'gemeente.txt'))  # format it as a discord file with name gemeente.txt and send to person who asked private
+        bericht = RIVMdata('gemeentelijst')
+        await message.channel.send(bericht)
+
     elif (message.content == '!database'):  # if command !database is given
-        PIC = message.author  # store who asked for it
-        with open('database.txt', 'rb') as fp:  # open database file
-            await PIC.send(file=discord.File(fp,
-                                             'database' + filedate + '.txt'))  # send file same way as above but also append the date of the file for reference
+        bericht = RIVMdata('database')
+        await message.channel.send(bericht)
 
 
 client.run(TOKEN)  # run the client and login with secret
