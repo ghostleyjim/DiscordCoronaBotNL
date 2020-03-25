@@ -21,38 +21,45 @@ def RIVMdata(locatie):
 
     plaats = []  # array for storing municipality info
 
-    hour_format = "%H"  # format time to stare in updatefile.txt
+    hour_format = "%H"  # format time to store in updatefile.txt
+    minute_format = "%M"
     day_format = '%d'  # string format only store day
     date_small = '%d%m'  # format time for filedate
     month_format = '%B'  # string format store complete month
     datetime_format = '%d %B %Y %H:%M:%S'  # string format to store datetime for log
     f = open('updatetime.txt', 'r')  # open the file to check the string
-    old_time = f.readline()  # store in var
-    old_time = old_time.rstrip('\n')  # make sure \n is stripped before comparison
+    old_hour = f.readline()  # store in var
+    old_hour = old_hour.rstrip('\n')  # make sure \n is stripped before comparison
     old_day = f.readline()
     old_day = old_day.rstrip('\n')
     old_month = f.readline()
     old_month = old_month.rstrip('\n')
+    old_minutes = f.readline()
+    old_minutes = old_minutes.strip('\n')
     f.close()  # close the file again
 
-    update_datetime = old_day + ' ' + old_month + ' ' + old_time + ' uur'  # update message string to chatroom
-
-    ntp_client = ntplib.NTPClient()  # check timeserver
-    response = ntp_client.request('pool.ntp.org')  # store variable from timeserver
-
+    update_datetime = old_day + ' ' + old_month + ' ' + old_hour + ':' + old_minutes + ' uur'  # update message
+    # string to chatroom
+    try:
+        ntp_client = ntplib.NTPClient()  # check timeserver
+        response = ntp_client.request('pool.ntp.org')  # store variable from timeserver
+    except:
+        print("no ntp")
+        response = time.localtime()
     current_hour = time.strftime(hour_format, time.localtime(response.tx_time))  # var for current hour (string)
     current_datetime = time.strftime(datetime_format, time.localtime(response.tx_time))  # used for logfile
     daynumber = time.strftime(day_format, time.localtime(
         response.tx_time))  # used for comparing if file has been updated in last 24 hrs
     month = time.strftime(month_format,
-                          time.localtime(response.tx_time))  # used to store month used in update message to chatroom
+                    time.localtime(response.tx_time))  # used to store month used in update message to chatroom
+    minutes = time.strftime(minute_format, time.localtime(response.tx_time))
     filedate = time.strftime(date_small, time.localtime(response.tx_time))  # format received string for filedate
 
     with open('updatetime.txt', "r+") as timefile:  # open updatetime.txt with read + write
         # compare and check if 6 hours has passed or complete day convert strings to int to do math
-        if int(old_time) - int(current_hour) >= 6 or int(old_time) - int(current_hour) <= -6 or int(daynumber) != int(
+        if int(old_hour) - int(current_hour) >= 6 or int(old_hour) - int(current_hour) <= -6 or int(daynumber) != int(
                 old_day):
-            print(current_hour + '\n' + daynumber + '\n' + month, file=timefile,
+            print(current_hour + '\n' + daynumber + '\n' + month + '\n' + minutes, file=timefile,
                   end='')  # if yes store the new time and date in the txt file
 
             page = requests.get(
