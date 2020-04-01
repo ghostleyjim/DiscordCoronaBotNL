@@ -1,0 +1,715 @@
+2020-03-31 21:08:25.587708
+gemnr;gemeente;aantal;bevaant;aantal per 100.000 inwoners
+796;'s-hertogenbosch;67;155113;43.2
+1680;aa en hunze;1;25453;3.9
+358;aalsmeer;5;31857;15.7
+197;aalten;1;27117;3.7
+59;achtkarspelen;0;27836;0
+482;alblasserdam;2;20165;9.9
+613;albrandswaard;4;25589;15.6
+361;alkmaar;19;109444;17.4
+141;almelo;8;73080;10.9
+34;almere;46;211840;21.7
+484;alphen aan den rijn;29;111889;25.9
+1723;alphen-chaam;9;10213;88.1
+1959;altena;17;55980;30.4
+60;ameland;0;3718;0
+307;amersfoort;24;157279;15.3
+362;amstelveen;28;91691;30.5
+363;amsterdam;244;872779;28
+200;apeldoorn;19;163829;11.6
+3;appingedam;1;11644;8.6
+202;arnhem;28;161368;17.4
+106;assen;5;68606;7.3
+743;asten;4;16734;23.9
+744;baarle-nassau;1;6860;14.6
+308;baarn;2;24873;8
+489;barendrecht;16;48713;32.8
+203;barneveld;5;59077;8.5
+888;beek;0;15868;0
+1954;beekdaelen;12;35976;33.4
+370;beemster;2;10025;20
+889;beesel;10;13483;74.2
+1945;berg en dal;15;34990;42.9
+1724;bergeijk;5;18638;26.8
+893;bergen (l.);3;13085;22.9
+373;bergen (nh.);8;29844;26.8
+748;bergen op zoom;11;67489;16.3
+1859;berkelland;1;43748;2.3
+1721;bernheze;57;31247;182.4
+753;best;18;29985;60
+209;beuningen;12;25891;46.3
+375;beverwijk;5;41613;12
+1728;bladel;7;20395;34.3
+376;blaricum;1;11536;8.7
+377;bloemendaal;3;23570;12.7
+1901;bodegraven-reeuwijk;2;34869;5.7
+755;boekel;21;10784;194.7
+1681;borger-odoorn;1;25558;3.9
+147;borne;10;23313;42.9
+654;borsele;3;22738;13.2
+756;boxmeer;8;29371;27.2
+757;boxtel;9;30803;29.2
+758;breda;113;184271;61.3
+501;brielle;5;17282;28.9
+1876;bronckhorst;1;36052;2.8
+213;brummen;3;20756;14.5
+899;brunssum;9;27817;32.4
+312;bunnik;4;15191;26.3
+313;bunschoten;1;21867;4.6
+214;buren;5;26742;18.7
+502;capelle aan den ijssel;20;67151;29.8
+383;castricum;8;35988;22.2
+109;coevorden;5;35296;14.2
+1706;cranendonck;28;21166;132.3
+1684;cuijk;5;25139;19.9
+216;culemborg;13;28956;44.9
+148;dalfsen;7;28585;24.5
+1891;dantumadiel;0;18916;0
+310;de bilt;11;43124;25.5
+1940;de fryske marren;11;51567;21.3
+736;de ronde venen;11;44457;24.7
+1690;de wolden;2;24327;8.2
+503;delft;19;103659;18.3
+10;delfzijl;4;24666;16.2
+400;den helder;6;56305;10.7
+762;deurne;34;32474;104.7
+150;deventer;21;100718;20.9
+384;diemen;4;30781;13
+1774;dinkelland;11;26470;41.6
+221;doesburg;3;11078;27.1
+222;doetinchem;5;58009;8.6
+766;dongen;7;26226;26.7
+505;dordrecht;26;119300;21.8
+498;drechterland;1;19717;5.1
+1719;drimmelen;14;27274;51.3
+303;dronten;8;41569;19.2
+225;druten;12;18918;63.4
+226;duiven;4;25124;15.9
+1711;echt-susteren;20;31618;63.3
+385;edam-volendam;10;36201;27.6
+228;ede;24;117166;20.5
+317;eemnes;1;9247;10.8
+770;eersel;11;19314;57
+1903;eijsden-margraten;6;25753;23.3
+772;eindhoven;46;234456;19.6
+230;elburg;2;23161;8.6
+114;emmen;6;107055;5.6
+388;enkhuizen;13;18592;69.9
+153;enschede;24;159734;15
+232;epe;7;33186;21.1
+233;ermelo;8;27005;29.6
+777;etten-leur;21;43880;47.9
+779;geertruidenberg;7;21538;32.5
+1771;geldrop-mierlo;9;39733;22.7
+1652;gemert-bakel;48;30725;156.2
+907;gennep;9;16924;53.2
+784;gilze en rijen;13;26438;49.2
+1924;goeree-overflakkee;24;50049;48
+664;goes;5;38080;13.1
+785;goirle;16;23906;66.9
+1942;gooise meren;10;58041;17.2
+512;gorinchem;9;37009;24.3
+513;gouda;13;73443;17.7
+786;grave;10;12437;80.4
+14;groningen;9;232922;3.9
+1729;gulpen-wittem;2;14176;14.1
+158;haaksbergen;4;24309;16.5
+788;haaren;14;14371;97.4
+392;haarlem;26;162961;16
+394;haarlemmermeer;31;156039;19.9
+1655;halderberge;9;30277;29.7
+160;hardenberg;9;60940;14.8
+243;harderwijk;8;48429;16.5
+523;hardinxveld-giessendam;1;18295;5.5
+72;harlingen;1;15720;6.4
+244;hattem;3;12213;24.6
+396;heemskerk;14;39188;35.7
+397;heemstede;4;27239;14.7
+246;heerde;17;18587;91.5
+74;heerenveen;5;50494;9.9
+398;heerhugowaard;17;57592;29.5
+917;heerlen;24;87057;27.6
+1658;heeze-leende;5;16150;31
+399;heiloo;5;23974;20.9
+163;hellendoorn;3;35923;8.4
+530;hellevoetsluis;4;40158;10
+794;helmond;35;92432;37.9
+531;hendrik-ido-ambacht;3;31204;9.6
+164;hengelo;6;81147;7.4
+1966;het hogeland;4;47834;8.4
+252;heumen;7;16450;42.6
+797;heusden;22;44699;49.2
+534;hillegom;3;22208;13.5
+798;hilvarenbeek;4;15514;25.8
+402;hilversum;13;90883;14.3
+1963;hoeksche waard;29;87461;33.2
+1735;hof van twente;8;35013;22.8
+1911;hollands kroon;17;48434;35.1
+118;hoogeveen;4;55697;7.2
+405;hoorn;13;73232;17.8
+1507;horst aan de maas;21;42433;49.5
+321;houten;9;50146;17.9
+406;huizen;9;41273;21.8
+677;hulst;4;27556;14.5
+353;ijsselstein;18;34110;52.8
+1884;kaag en braassem;4;27300;14.7
+166;kampen;34;54340;62.6
+678;kapelle;1;12691;7.9
+537;katwijk;8;65754;12.2
+928;kerkrade;10;45744;21.9
+1598;koggenland;4;22752;17.6
+542;krimpen aan den ijssel;2;29533;6.8
+1931;krimpenerwaard;22;56319;39.1
+1659;laarbeek;18;22530;79.9
+1685;landerd;20;15730;127.1
+882;landgraaf;7;37457;18.7
+415;landsmeer;3;11492;26.1
+416;langedijk;6;28157;21.3
+1621;lansingerland;15;62396;24
+417;laren;5;11274;44.3
+80;leeuwarden;16;124058;12.9
+546;leiden;16;125174;12.8
+547;leiderdorp;5;27059;18.5
+1916;leidschendam-voorburg;7;76553;9.1
+995;lelystad;24;78619;30.5
+1640;leudal;32;35896;89.1
+327;leusden;5;30399;16.4
+1705;lingewaard;14;46606;30
+553;lisse;3;22957;13.1
+262;lochem;2;33730;5.9
+809;loon op zand;15;23407;64.1
+331;lopik;11;14471;76
+24;loppersum;0;9533;0
+168;losser;2;22685;8.8
+263;maasdriel;9;25034;36
+1641;maasgouw;10;23960;41.7
+556;maassluis;8;33216;24.1
+935;maastricht;25;121558;20.6
+420;medemblik;9;45104;20
+938;meerssen;3;18832;15.9
+1948;meierijstad;110;81197;135.5
+119;meppel;3;33902;8.8
+687;middelburg;10;48810;20.5
+1842;midden-delfland;1;19344;5.2
+1731;midden-drenthe;4;33182;12.1
+1952;midden-groningen;4;60804;6.6
+815;mill en sint hubert;6;10941;54.8
+1709;moerdijk;5;37136;13.5
+1978;molenlanden;9;43931;20.5
+1955;montferland;3;36009;8.3
+335;montfoort;9;13920;64.7
+944;mook en middelaar;3;7847;38.2
+1740;neder-betuwe;22;24342;90.4
+946;nederweert;22;17022;129.2
+356;nieuwegein;15;63461;23.6
+569;nieuwkoop;4;28809;13.9
+267;nijkerk;10;43176;23.2
+268;nijmegen;72;177698;40.5
+1930;nissewaard;19;85237;22.3
+1970;noardeast-fryslân;4;45251;8.8
+1695;noord-beveland;0;7395;0
+1699;noordenveld;1;31242;3.2
+171;noordoostpolder;6;47262;12.7
+575;noordwijk;8;43528;18.4
+820;nuenen, gerwen en nederwetten;7;23379;29.9
+302;nunspeet;15;27845;53.9
+579;oegstgeest;3;24843;12.1
+823;oirschot;6;18723;32
+824;oisterwijk;9;26241;34.3
+1895;oldambt;1;38213;2.6
+269;oldebroek;6;23645;25.4
+173;oldenzaal;8;31832;25.1
+1773;olst-wijhe;5;18251;27.4
+175;ommen;4;18007;22.2
+1586;oost gelre;2;29623;6.8
+826;oosterhout;23;55990;41.1
+85;ooststellingwerf;1;25472;3.9
+431;oostzaan;2;9733;20.5
+432;opmeer;1;11837;8.4
+86;opsterland;4;29742;13.4
+828;oss;73;91932;79.4
+1509;oude ijsselstreek;2;39392;5.1
+437;ouder-amstel;3;14029;21.4
+589;oudewater;15;10226;146.7
+1734;overbetuwe;32;47909;66.8
+590;papendrecht;0;32133;0
+1894;peel en maas;103;43420;237.2
+765;pekela;3;12199;24.6
+1926;pijnacker-nootdorp;9;55329;16.3
+439;purmerend;35;81233;43.1
+273;putten;1;24113;4.1
+177;raalte;14;37709;37.1
+703;reimerswaal;4;22728;17.6
+274;renkum;10;31404;31.8
+339;renswoude;1;5448;18.4
+1667;reusel-de mierden;1;13110;7.6
+275;rheden;20;43736;45.7
+340;rhenen;2;20125;9.9
+597;ridderkerk;18;46204;39
+1742;rijssen-holten;8;38178;21
+603;rijswijk;12;54432;22
+1669;roerdalen;13;20572;63.2
+957;roermond;25;58254;42.9
+1674;roosendaal;11;77226;14.2
+599;rotterdam;120;651376;18.4
+277;rozendaal;1;1705;58.7
+840;rucphen;3;22873;13.1
+518;s-gravenhage;81;545163;14.9
+441;schagen;10;46482;21.5
+279;scherpenzeel;0;9880;0
+606;schiedam;19;78739;24.1
+88;schiermonnikoog;0;947;0
+1676;schouwen-duiveland;6;33858;17.7
+965;simpelveld;2;10552;19
+1702;sint anthonis;14;11672;119.9
+845;sint-michielsgestel;14;29203;47.9
+1883;sittard-geleen;24;92422;26
+610;sliedrecht;1;25217;4
+1714;sluis;4;23217;17.2
+90;smallingerland;5;56154;8.9
+342;soest;9;46607;19.3
+847;someren;8;19376;41.3
+848;son en breugel;15;17321;86.6
+37;stadskanaal;0;31688;0
+180;staphorst;1;17144;5.8
+532;stede broec;10;21734;46
+851;steenbergen;7;24501;28.6
+1708;steenwijkerland;6;44139;13.6
+971;stein;11;25000;44
+1904;stichtse vecht;16;64928;24.6
+1900;súdwest-fryslân;12;89987;13.3
+715;terneuzen;11;54438;20.2
+93;terschelling;0;4889;0
+448;texel;1;13573;7.4
+1525;teylingen;6;37426;16
+716;tholen;20;25758;77.6
+281;tiel;21;42161;49.8
+855;tilburg;115;219800;52.3
+183;tubbergen;7;21279;32.9
+1700;twenterand;5;33743;14.8
+1730;tynaarlo;5;33879;14.8
+737;tytsjerksteradiel;1;32046;3.1
+856;uden;67;42122;159.1
+450;uitgeest;3;13649;22
+451;uithoorn;9;29466;30.5
+184;urk;11;21033;52.3
+344;utrecht;75;357694;21
+1581;utrechtse heuvelrug;11;49601;22.2
+981;vaals;2;10099;19.8
+994;valkenburg aan de geul;2;16360;12.2
+858;valkenswaard;6;31200;19.2
+47;veendam;1;27387;3.7
+345;veenendaal;7;66491;10.5
+717;veere;3;21885;13.7
+861;veldhoven;7;45458;15.4
+453;velsen;13;68660;18.9
+983;venlo;64;101797;62.9
+984;venray;22;43604;50.5
+1961;vijfheerenlanden;11;56816;19.4
+622;vlaardingen;12;73445;16.3
+96;vlieland;0;1152;0
+718;vlissingen;5;44365;11.3
+986;voerendaal;2;12471;16
+626;voorschoten;4;25603;15.6
+285;voorst;3;24546;12.2
+865;vught;23;26554;86.6
+1949;waadhoeke;2;46079;4.3
+866;waalre;0;17454;0
+867;waalwijk;16;48620;32.9
+627;waddinxveen;4;29293;13.7
+289;wageningen;5;39673;12.6
+629;wassenaar;2;26214;7.6
+852;waterland;8;17422;45.9
+988;weert;27;50107;53.9
+457;weesp;2;19729;10.1
+1960;west betuwe;12;51198;23.4
+668;west maas en waal;9;19320;46.6
+1969;westerkwartier;9;63375;14.2
+1701;westerveld;1;19460;5.1
+293;westervoort;2;14973;13.4
+1950;westerwolde;4;25796;15.5
+1783;westland;25;110357;22.7
+98;weststellingwerf;2;25916;7.7
+614;westvoorne;4;14728;27.2
+189;wierden;2;24440;8.2
+296;wijchen;27;41124;65.7
+1696;wijdemeren;3;24360;12.3
+352;wijk bij duurstede;5;23910;20.9
+294;winterswijk;1;28865;3.5
+873;woensdrecht;4;21883;18.3
+632;woerden;22;52294;42.1
+880;wormerland;8;16299;49.1
+351;woudenberg;2;13362;15
+479;zaanstad;32;156711;20.4
+297;zaltbommel;8;28901;27.7
+473;zandvoort;4;17116;23.4
+50;zeewolde;3;22656;13.2
+355;zeist;12;64932;18.5
+299;zevenaar;16;43740;36.6
+637;zoetermeer;21;125283;16.8
+638;zoeterwoude;2;8611;23.2
+1892;zuidplas;9;43894;20.5
+879;zundert;13;21821;59.6
+301;zutphen;5;47942;10.4
+1896;zwartewaterland;20;22690;88.1
+642;zwijndrecht;9;44741;20.1
+193;zwolle;24;128831;18.6
+end2020-04-01 09:07:08.053789
+gemnr;gemeente;aantal;bevaant;aantal per 100.000 inwoners
+796;'s-hertogenbosch;67;155113;43.2
+1680;aa en hunze;1;25453;3.9
+358;aalsmeer;5;31857;15.7
+197;aalten;1;27117;3.7
+59;achtkarspelen;0;27836;0
+482;alblasserdam;2;20165;9.9
+613;albrandswaard;4;25589;15.6
+361;alkmaar;19;109444;17.4
+141;almelo;8;73080;10.9
+34;almere;46;211840;21.7
+484;alphen aan den rijn;29;111889;25.9
+1723;alphen-chaam;9;10213;88.1
+1959;altena;17;55980;30.4
+60;ameland;0;3718;0
+307;amersfoort;24;157279;15.3
+362;amstelveen;28;91691;30.5
+363;amsterdam;244;872779;28
+200;apeldoorn;19;163829;11.6
+3;appingedam;1;11644;8.6
+202;arnhem;28;161368;17.4
+106;assen;5;68606;7.3
+743;asten;4;16734;23.9
+744;baarle-nassau;1;6860;14.6
+308;baarn;2;24873;8
+489;barendrecht;16;48713;32.8
+203;barneveld;5;59077;8.5
+888;beek;0;15868;0
+1954;beekdaelen;12;35976;33.4
+370;beemster;2;10025;20
+889;beesel;10;13483;74.2
+1945;berg en dal;15;34990;42.9
+1724;bergeijk;5;18638;26.8
+893;bergen (l.);3;13085;22.9
+373;bergen (nh.);8;29844;26.8
+748;bergen op zoom;11;67489;16.3
+1859;berkelland;1;43748;2.3
+1721;bernheze;57;31247;182.4
+753;best;18;29985;60
+209;beuningen;12;25891;46.3
+375;beverwijk;5;41613;12
+1728;bladel;7;20395;34.3
+376;blaricum;1;11536;8.7
+377;bloemendaal;3;23570;12.7
+1901;bodegraven-reeuwijk;2;34869;5.7
+755;boekel;21;10784;194.7
+1681;borger-odoorn;1;25558;3.9
+147;borne;10;23313;42.9
+654;borsele;3;22738;13.2
+756;boxmeer;8;29371;27.2
+757;boxtel;9;30803;29.2
+758;breda;113;184271;61.3
+501;brielle;5;17282;28.9
+1876;bronckhorst;1;36052;2.8
+213;brummen;3;20756;14.5
+899;brunssum;9;27817;32.4
+312;bunnik;4;15191;26.3
+313;bunschoten;1;21867;4.6
+214;buren;5;26742;18.7
+502;capelle aan den ijssel;20;67151;29.8
+383;castricum;8;35988;22.2
+109;coevorden;5;35296;14.2
+1706;cranendonck;28;21166;132.3
+1684;cuijk;5;25139;19.9
+216;culemborg;13;28956;44.9
+148;dalfsen;7;28585;24.5
+1891;dantumadiel;0;18916;0
+310;de bilt;11;43124;25.5
+1940;de fryske marren;11;51567;21.3
+736;de ronde venen;11;44457;24.7
+1690;de wolden;2;24327;8.2
+503;delft;19;103659;18.3
+10;delfzijl;4;24666;16.2
+400;den helder;6;56305;10.7
+762;deurne;34;32474;104.7
+150;deventer;21;100718;20.9
+384;diemen;4;30781;13
+1774;dinkelland;11;26470;41.6
+221;doesburg;3;11078;27.1
+222;doetinchem;5;58009;8.6
+766;dongen;7;26226;26.7
+505;dordrecht;26;119300;21.8
+498;drechterland;1;19717;5.1
+1719;drimmelen;14;27274;51.3
+303;dronten;8;41569;19.2
+225;druten;12;18918;63.4
+226;duiven;4;25124;15.9
+1711;echt-susteren;20;31618;63.3
+385;edam-volendam;10;36201;27.6
+228;ede;24;117166;20.5
+317;eemnes;1;9247;10.8
+770;eersel;11;19314;57
+1903;eijsden-margraten;6;25753;23.3
+772;eindhoven;46;234456;19.6
+230;elburg;2;23161;8.6
+114;emmen;6;107055;5.6
+388;enkhuizen;13;18592;69.9
+153;enschede;24;159734;15
+232;epe;7;33186;21.1
+233;ermelo;8;27005;29.6
+777;etten-leur;21;43880;47.9
+779;geertruidenberg;7;21538;32.5
+1771;geldrop-mierlo;9;39733;22.7
+1652;gemert-bakel;48;30725;156.2
+907;gennep;9;16924;53.2
+784;gilze en rijen;13;26438;49.2
+1924;goeree-overflakkee;24;50049;48
+664;goes;5;38080;13.1
+785;goirle;16;23906;66.9
+1942;gooise meren;10;58041;17.2
+512;gorinchem;9;37009;24.3
+513;gouda;13;73443;17.7
+786;grave;10;12437;80.4
+14;groningen;9;232922;3.9
+1729;gulpen-wittem;2;14176;14.1
+158;haaksbergen;4;24309;16.5
+788;haaren;14;14371;97.4
+392;haarlem;26;162961;16
+394;haarlemmermeer;31;156039;19.9
+1655;halderberge;9;30277;29.7
+160;hardenberg;9;60940;14.8
+243;harderwijk;8;48429;16.5
+523;hardinxveld-giessendam;1;18295;5.5
+72;harlingen;1;15720;6.4
+244;hattem;3;12213;24.6
+396;heemskerk;14;39188;35.7
+397;heemstede;4;27239;14.7
+246;heerde;17;18587;91.5
+74;heerenveen;5;50494;9.9
+398;heerhugowaard;17;57592;29.5
+917;heerlen;24;87057;27.6
+1658;heeze-leende;5;16150;31
+399;heiloo;5;23974;20.9
+163;hellendoorn;3;35923;8.4
+530;hellevoetsluis;4;40158;10
+794;helmond;35;92432;37.9
+531;hendrik-ido-ambacht;3;31204;9.6
+164;hengelo;6;81147;7.4
+1966;het hogeland;4;47834;8.4
+252;heumen;7;16450;42.6
+797;heusden;22;44699;49.2
+534;hillegom;3;22208;13.5
+798;hilvarenbeek;4;15514;25.8
+402;hilversum;13;90883;14.3
+1963;hoeksche waard;29;87461;33.2
+1735;hof van twente;8;35013;22.8
+1911;hollands kroon;17;48434;35.1
+118;hoogeveen;4;55697;7.2
+405;hoorn;13;73232;17.8
+1507;horst aan de maas;21;42433;49.5
+321;houten;9;50146;17.9
+406;huizen;9;41273;21.8
+677;hulst;4;27556;14.5
+353;ijsselstein;18;34110;52.8
+1884;kaag en braassem;4;27300;14.7
+166;kampen;34;54340;62.6
+678;kapelle;1;12691;7.9
+537;katwijk;8;65754;12.2
+928;kerkrade;10;45744;21.9
+1598;koggenland;4;22752;17.6
+542;krimpen aan den ijssel;2;29533;6.8
+1931;krimpenerwaard;22;56319;39.1
+1659;laarbeek;18;22530;79.9
+1685;landerd;20;15730;127.1
+882;landgraaf;7;37457;18.7
+415;landsmeer;3;11492;26.1
+416;langedijk;6;28157;21.3
+1621;lansingerland;15;62396;24
+417;laren;5;11274;44.3
+80;leeuwarden;16;124058;12.9
+546;leiden;16;125174;12.8
+547;leiderdorp;5;27059;18.5
+1916;leidschendam-voorburg;7;76553;9.1
+995;lelystad;24;78619;30.5
+1640;leudal;32;35896;89.1
+327;leusden;5;30399;16.4
+1705;lingewaard;14;46606;30
+553;lisse;3;22957;13.1
+262;lochem;2;33730;5.9
+809;loon op zand;15;23407;64.1
+331;lopik;11;14471;76
+24;loppersum;0;9533;0
+168;losser;2;22685;8.8
+263;maasdriel;9;25034;36
+1641;maasgouw;10;23960;41.7
+556;maassluis;8;33216;24.1
+935;maastricht;25;121558;20.6
+420;medemblik;9;45104;20
+938;meerssen;3;18832;15.9
+1948;meierijstad;110;81197;135.5
+119;meppel;3;33902;8.8
+687;middelburg;10;48810;20.5
+1842;midden-delfland;1;19344;5.2
+1731;midden-drenthe;4;33182;12.1
+1952;midden-groningen;4;60804;6.6
+815;mill en sint hubert;6;10941;54.8
+1709;moerdijk;5;37136;13.5
+1978;molenlanden;9;43931;20.5
+1955;montferland;3;36009;8.3
+335;montfoort;9;13920;64.7
+944;mook en middelaar;3;7847;38.2
+1740;neder-betuwe;22;24342;90.4
+946;nederweert;22;17022;129.2
+356;nieuwegein;15;63461;23.6
+569;nieuwkoop;4;28809;13.9
+267;nijkerk;10;43176;23.2
+268;nijmegen;72;177698;40.5
+1930;nissewaard;19;85237;22.3
+1970;noardeast-fryslân;4;45251;8.8
+1695;noord-beveland;0;7395;0
+1699;noordenveld;1;31242;3.2
+171;noordoostpolder;6;47262;12.7
+575;noordwijk;8;43528;18.4
+820;nuenen, gerwen en nederwetten;7;23379;29.9
+302;nunspeet;15;27845;53.9
+579;oegstgeest;3;24843;12.1
+823;oirschot;6;18723;32
+824;oisterwijk;9;26241;34.3
+1895;oldambt;1;38213;2.6
+269;oldebroek;6;23645;25.4
+173;oldenzaal;8;31832;25.1
+1773;olst-wijhe;5;18251;27.4
+175;ommen;4;18007;22.2
+1586;oost gelre;2;29623;6.8
+826;oosterhout;23;55990;41.1
+85;ooststellingwerf;1;25472;3.9
+431;oostzaan;2;9733;20.5
+432;opmeer;1;11837;8.4
+86;opsterland;4;29742;13.4
+828;oss;73;91932;79.4
+1509;oude ijsselstreek;2;39392;5.1
+437;ouder-amstel;3;14029;21.4
+589;oudewater;15;10226;146.7
+1734;overbetuwe;32;47909;66.8
+590;papendrecht;0;32133;0
+1894;peel en maas;103;43420;237.2
+765;pekela;3;12199;24.6
+1926;pijnacker-nootdorp;9;55329;16.3
+439;purmerend;35;81233;43.1
+273;putten;1;24113;4.1
+177;raalte;14;37709;37.1
+703;reimerswaal;4;22728;17.6
+274;renkum;10;31404;31.8
+339;renswoude;1;5448;18.4
+1667;reusel-de mierden;1;13110;7.6
+275;rheden;20;43736;45.7
+340;rhenen;2;20125;9.9
+597;ridderkerk;18;46204;39
+1742;rijssen-holten;8;38178;21
+603;rijswijk;12;54432;22
+1669;roerdalen;13;20572;63.2
+957;roermond;25;58254;42.9
+1674;roosendaal;11;77226;14.2
+599;rotterdam;120;651376;18.4
+277;rozendaal;1;1705;58.7
+840;rucphen;3;22873;13.1
+518;s-gravenhage;81;545163;14.9
+441;schagen;10;46482;21.5
+279;scherpenzeel;0;9880;0
+606;schiedam;19;78739;24.1
+88;schiermonnikoog;0;947;0
+1676;schouwen-duiveland;6;33858;17.7
+965;simpelveld;2;10552;19
+1702;sint anthonis;14;11672;119.9
+845;sint-michielsgestel;14;29203;47.9
+1883;sittard-geleen;24;92422;26
+610;sliedrecht;1;25217;4
+1714;sluis;4;23217;17.2
+90;smallingerland;5;56154;8.9
+342;soest;9;46607;19.3
+847;someren;8;19376;41.3
+848;son en breugel;15;17321;86.6
+37;stadskanaal;0;31688;0
+180;staphorst;1;17144;5.8
+532;stede broec;10;21734;46
+851;steenbergen;7;24501;28.6
+1708;steenwijkerland;6;44139;13.6
+971;stein;11;25000;44
+1904;stichtse vecht;16;64928;24.6
+1900;súdwest-fryslân;12;89987;13.3
+715;terneuzen;11;54438;20.2
+93;terschelling;0;4889;0
+448;texel;1;13573;7.4
+1525;teylingen;6;37426;16
+716;tholen;20;25758;77.6
+281;tiel;21;42161;49.8
+855;tilburg;115;219800;52.3
+183;tubbergen;7;21279;32.9
+1700;twenterand;5;33743;14.8
+1730;tynaarlo;5;33879;14.8
+737;tytsjerksteradiel;1;32046;3.1
+856;uden;67;42122;159.1
+450;uitgeest;3;13649;22
+451;uithoorn;9;29466;30.5
+184;urk;11;21033;52.3
+344;utrecht;75;357694;21
+1581;utrechtse heuvelrug;11;49601;22.2
+981;vaals;2;10099;19.8
+994;valkenburg aan de geul;2;16360;12.2
+858;valkenswaard;6;31200;19.2
+47;veendam;1;27387;3.7
+345;veenendaal;7;66491;10.5
+717;veere;3;21885;13.7
+861;veldhoven;7;45458;15.4
+453;velsen;13;68660;18.9
+983;venlo;64;101797;62.9
+984;venray;22;43604;50.5
+1961;vijfheerenlanden;11;56816;19.4
+622;vlaardingen;12;73445;16.3
+96;vlieland;0;1152;0
+718;vlissingen;5;44365;11.3
+986;voerendaal;2;12471;16
+626;voorschoten;4;25603;15.6
+285;voorst;3;24546;12.2
+865;vught;23;26554;86.6
+1949;waadhoeke;2;46079;4.3
+866;waalre;0;17454;0
+867;waalwijk;16;48620;32.9
+627;waddinxveen;4;29293;13.7
+289;wageningen;5;39673;12.6
+629;wassenaar;2;26214;7.6
+852;waterland;8;17422;45.9
+988;weert;27;50107;53.9
+457;weesp;2;19729;10.1
+1960;west betuwe;12;51198;23.4
+668;west maas en waal;9;19320;46.6
+1969;westerkwartier;9;63375;14.2
+1701;westerveld;1;19460;5.1
+293;westervoort;2;14973;13.4
+1950;westerwolde;4;25796;15.5
+1783;westland;25;110357;22.7
+98;weststellingwerf;2;25916;7.7
+614;westvoorne;4;14728;27.2
+189;wierden;2;24440;8.2
+296;wijchen;27;41124;65.7
+1696;wijdemeren;3;24360;12.3
+352;wijk bij duurstede;5;23910;20.9
+294;winterswijk;1;28865;3.5
+873;woensdrecht;4;21883;18.3
+632;woerden;22;52294;42.1
+880;wormerland;8;16299;49.1
+351;woudenberg;2;13362;15
+479;zaanstad;32;156711;20.4
+297;zaltbommel;8;28901;27.7
+473;zandvoort;4;17116;23.4
+50;zeewolde;3;22656;13.2
+355;zeist;12;64932;18.5
+299;zevenaar;16;43740;36.6
+637;zoetermeer;21;125283;16.8
+638;zoeterwoude;2;8611;23.2
+1892;zuidplas;9;43894;20.5
+879;zundert;13;21821;59.6
+301;zutphen;5;47942;10.4
+1896;zwartewaterland;20;22690;88.1
+642;zwijndrecht;9;44741;20.1
+193;zwolle;24;128831;18.6
+end
